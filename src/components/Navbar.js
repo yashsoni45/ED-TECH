@@ -10,7 +10,7 @@ const Navbar = (props) => {
   let setIsLoggedIn=props.setIsLoggedIn;
    
   return (
-    <div className='flex justify-evenly'>
+    <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
       
       
       <Link to="/">
@@ -18,7 +18,7 @@ const Navbar = (props) => {
       </Link>
 
       <nav>
-        <ul className='flex gap-3'>
+        <ul className='text-richblack-100 flex gap-x-6'>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -33,25 +33,25 @@ const Navbar = (props) => {
 
       {/* Login - SignUp -LogOut - Dashboard */}
 
-      <div className='flex ml-3 mr-3 gap-3'>
+      <div className='flex items-center gap-x-4'>
 
         { !isLoggedIn &&
             <Link to="/login">
-              <button>
+              <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richblack-700'>
                 Login
               </button>
             </Link>
         }
         {   !isLoggedIn &&
             <Link to="/signup">
-              <button>
-                Sign Up
+              <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richblack-700'>
+                Sign up
               </button>
             </Link>
         }
         { isLoggedIn &&
             <Link to="/">
-              <button onClick={()=>{
+              <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richblack-700' onClick={()=>{
                 setIsLoggedIn(false);
                 toast.success("Logged Out");
               }}>
@@ -61,7 +61,7 @@ const Navbar = (props) => {
         }
         { isLoggedIn &&
             <Link to="/dashboard">
-              <button>
+              <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richblack-700'>
                 Dashboard
               </button>
             </Link>
