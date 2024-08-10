@@ -1,8 +1,8 @@
 
 
-# StudyNotion
+# ED-TECH
 
-**StudyNotion** is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. Built using the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS), the platform provides a seamless and interactive learning experience for students and a space for instructors to showcase their expertise.
+**ED-TECH** is a fully functional ed-tech platform that enables users to create, consume, and rate educational content. Built using the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS), the platform provides a seamless and interactive learning experience for students and a space for instructors to showcase their expertise.
 
 ## Table of Contents
 
@@ -93,7 +93,7 @@ Sample API Requests and Responses are detailed in the documentation.
 The deployment of StudyNotion involves:
 
 - **Front-end**: Deployed on [Vercel](https://vercel.com/).
-- **Back-end**: Hosted on [Render](https://render.com/) or [Railway](https://railway.app/).
+- **Back-end**: Hosted on [Render](https://render.com/) 
 - **Media Storage**: Managed by [Cloudinary](https://cloudinary.com/).
 - **Database**: Hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
@@ -129,11 +129,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YOUR-USERNAME/StudyNotion.git
+   git clone https://github.com/yashsoni45/ED-TECH.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd StudyNotion
+   cd ED-TECH
    ```
 3. Install dependencies for the front-end:
    ```sh
@@ -171,6 +171,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Project Link: [https://github.com/yashsoni45/ED-TECH](https://github.com/yashsoni45/ED-TECH)
 
----
-
-This README file provides an overview of your project and guides contributors and users through the setup, usage, and contribution processes.
